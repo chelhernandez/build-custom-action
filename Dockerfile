@@ -5,8 +5,6 @@ FROM ubuntu:22.04
 RUN apt update && apt upgrade -y && \
     rm -rf /var/lib/apt/lists/* 
 
-WORKDIR /workspace
-
 COPY entrypoint.sh .
 
 RUN chmod 755 entrypoint.sh
