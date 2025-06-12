@@ -1,0 +1,5 @@
+name: 'Hola mundo - Custom Action'
+description: 'A test custom action that provides a Hello World!'
+runs:
+   using: 'docker'
+   image: 'Dockerfile'
